@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Header */
+.site-header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.site-header .logo img {
+  height: 50px;
+  vertical-align: middle;
+  position: absolute;
+  left: 50px;
+  top: 3px;
+}
+
+.site-header .main-nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.site-header .main-nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.site-header .main-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  
+}
+.site-header .main-nav ul li a:hover{
+  color: orangered;
+}
+
+.site-header .search-bar {
+  position: absolute;
+top: 12px;
+right: 30px;
+}
+
+.site-header .search-bar input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.site-header .search-bar button {
+  padding: 8px 12px;
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+h2{
+  text-align: center;
+}
+.buy{
+  border-radius: 5px;
+  background-color: orangered;
+  text-align: center;
+  display: inline-block;
+  padding: 8px 16px;
+  position: absolute;
+  left: 700px;
+  
+  
+  
+  
+}

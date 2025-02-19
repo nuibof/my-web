@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopee-like Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  /* Header */
+  .site-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .site-header .logo img {
+    height: 50px;
+    vertical-align: middle;
+    position: absolute;
+    left: 50px;
+    top: 3px;
+  }
+  
+  .site-header .main-nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  .site-header .main-nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .site-header .main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    
+  }
+  .site-header .main-nav ul li a:hover{
+    color: orangered;
+  }
+  
+  .site-header .search-bar {
+    float: right;
+  }
+  
+  .site-header .search-bar input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 20px;
+  }
+  
+  .site-header .search-bar button {
+    padding: 8px 12px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Product */
+  .featured-products {
+    margin-top: 20px;
+  }
+  .featured-products h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .product {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 40px;
+    width: 240px;
+    height: 320px;
+    float: left;
+  }
+  .product:hover {
+        transform: translateY(-10px); /* Dịch chuyển khung sản phẩm lên trên 10px khi hover */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Đổ bóng khi hover */
+    }
+  .product img {
+    max-width: 70%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .product p {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .product .btn-buy {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: orangered;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .product .btn-buy:hover {
+    background-color: grey;
+  }
+  .product .giohang{
+    width: 50px;
+    margin-bottom: 10px;
+    float: right;
+    padding: 10px;
+    
+  
+  }
+  
+  /* Footer */
+  .footer{
+    background-color: gray;
+    text-align: center;
+    color: black;
+  }
+  
+    </style>
+    <script src="products.js"></script>
+    <script src="dienthoai.js"></script>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <img src="" alt="Logo">
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="sanpham.html">Sản phẩm</a></li>
+                    <li><a href="giohang.html">Giỏ hàng</a></li>
+                    <li><a href="dangky.html">Đăng ký</a></li>
+                    <li><a href="dangnhap.html">Đăng nhập</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Tìm kiếm...">
+                <button type="submit">Tìm</button>
+            </div>
+        </div>
+    </header>
+        <section class="featured-products">
+            <div class="container" id="product-container">
+
+            </div>
+        </section>
+    </main>
+
+    
+    <footer class="footer">
+        <p>Địa chỉ: Tầng 4-5-6, Tòa nhà Capital Place, số 29 đường Liễu Giai, Phường Ngọc Khánh, Quận Ba Đình, Thành phố Hà Nội, Việt Nam. <br>
+             Tổng đài hỗ trợ: 19001221 - Email: cskh@hotro.shopee.vn <br>
+            Chịu Trách Nhiệm Quản Lý Nội Dung: Nguyễn Bùi Anh Tuấn <br>
+            Mã số doanh nghiệp: 0106773786 do Sở Kế hoạch & Đầu tư TP Hà Nội cấp lần đầu ngày 10/02/2015 © 2015 <br>
+             Bản quyền thuộc về Công ty TNHH Shopee</p>
+    </footer>
+</body>
+</html>

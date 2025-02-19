@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  /* Header */
+  .site-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .site-header .logo img {
+    height: 50px;
+    vertical-align: middle;
+    position: absolute;
+    left: 50px;
+    top: 3px;
+  }
+  
+  .site-header .main-nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  .site-header .main-nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .site-header .main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    
+  }
+  .site-header .main-nav ul li a:hover{
+    color: orangered;
+  }
+
+/*form*/
+  form {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 150px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  .submit {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    width: 100%;
+  }
+  
+  .submit {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .submit:hover {
+    background-color: #f44336;
+  }
+
+  .dangnhap{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+
+  }
